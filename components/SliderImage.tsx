@@ -16,6 +16,7 @@ const SliderImage = ({ image, name }: Props) => {
         height={150}
         objectFit="contain"
         className="mx-auto mb-[2rem] rounded-full"
+        loading="eager"
       />
     </div>
   );
