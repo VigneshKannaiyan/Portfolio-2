@@ -13,7 +13,6 @@ module.exports = {
       fontFamily: {
         primary: ["Poppins"],
       },
-
     },
   },
   plugins: [],
