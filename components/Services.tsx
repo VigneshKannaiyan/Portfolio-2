@@ -8,7 +8,10 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="bg-[#121121] pt-[4rem] md:pt-[8rem] pb-[5rem]" id="services">
+    <div
+      className="bg-[#121121] pt-[4rem] md:pt-[8rem] pb-[5rem]"
+      id="services"
+    >
       <p className="heading">
         My <span className="text-yellow-400">Services</span>
       </p>
@@ -26,10 +29,11 @@ const Services = () => {
               FrontEnd
             </h1>
             <p className="text-[15px] text-[#fffdfd] font-normal">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis
-              numquam iste harum eligendi, animi consequuntur impedit eius
-              assumenda, dolorum pariatur, voluptas accusantium eveniet
-              aspernatur mollitia nemo sit placeat ducimus!
+              Over the past 6 months, I've diligently cultivated a strong
+              foundation in React.js, Next.js, and Tailwind CSS. My expertise
+              spans JavaScript, TypeScript, and backend integration with Fetch
+              and Axios, enabling me to deliver robust, responsive, and scalable
+              web solutions efficiently.
             </p>
           </div>
         </div>
@@ -43,10 +47,11 @@ const Services = () => {
               BackEnd
             </h1>
             <p className="text-[15px] text-[#ffffff] font-normal">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis
-              numquam iste harum eligendi, animi consequuntur impedit eius
-              assumenda, dolorum pariatur, voluptas accusantium eveniet
-              aspernatur mollitia nemo sit placeat ducimus!
+              Expertise in Node.js frameworks like Express.js, NestJS, and
+              Koa.js, I specialize in JavaScript and TypeScript for backend
+              development. Proficient in creating microservices and integrating
+              with databases, I also bring robust skills in unit testing using
+              Mocha and Chai.
             </p>
           </div>
         </div>
@@ -60,10 +65,11 @@ const Services = () => {
               Full Stack
             </h1>
             <p className="text-[15px] text-[#ffffff] font-normal">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis
-              numquam iste harum eligendi, animi consequuntur impedit eius
-              assumenda, dolorum pariatur, voluptas accusantium eveniet
-              aspernatur mollitia nemo sit placeat ducimus!
+              Full Stack Developer with 6 months of React.js, Next.js, and
+              Tailwind CSS experience, and 5 years in backend Node.js
+              (Express.js, NestJS, Koa.js). Proficient in JavaScript,
+              TypeScript, microservices, Docker, and Jenkins, adept at
+              integrating front-end and backend for dynamic web solutions.
             </p>
           </div>
         </div>
@@ -77,14 +83,14 @@ const Services = () => {
               DataBase
             </h1>
             <p className="text-[15px] text-[#ffffff] font-normal">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad omnis
-              numquam iste harum eligendi, animi consequuntur impedit eius
-              assumenda, dolorum pariatur, voluptas accusantium eveniet
-              aspernatur mollitia nemo sit placeat ducimus!
+              Over 5 years, I've gained extensive proficiency in MongoDB and
+              MySQL, utilizing ORMs like Prisma and Sequelize.js. I
+              excel in both raw query implementations and seamlessly integrating
+              backend applications, ensuring robust performance and scalability.
+              (MongoDB+Prisma MySQL+SequelizeJs)
             </p>
           </div>
         </div>
-
       </div>
     </div>
   );
