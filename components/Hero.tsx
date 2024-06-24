@@ -40,26 +40,25 @@ const Hero = () => {
               languages.
             </p>
             <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-              
-              
               <a
-              href="../public/files/VIGNESH_KANNAIYAN_12052024.pdf" // Adjust the path as needed
-              download
-              className="inline-block"
-            >
-              <button
-                className="animate-bounce rounded-xl px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold
-                uppercase bg-[#55e6a5] text-black flex items-center space-x-2 hover:border-2 border-white"
+                href="/files/VIGNESH_KANNAIYAN_12052024.pdf"
+                download
+                className="inline-block"
               >
-                <p className="hover:text-white">Download Resume</p>
-                <ArrowDownTrayIcon className="animate-bounce w-[1.6rem] h-[1.7rem] text-black hover:text-white" />
-              </button>
-            </a>
+                <button className="box">
+                  <div className="flex items-center">
+                    <p className="glowing-txt">
+                      Download <span className="faulty-letter">Resume</span>
+                    </p>
+                    <ArrowDownTrayIcon className="animate-bounce ml-2 w-[1.6rem] h-[1.7rem] text-yellow-500 glowing-txt" />
+                  </div>
+                </button>
+              </a>
             </div>
           </div>
           <div data-aos="fade-right" data-aos-delay="100">
             <div
-              className="w-[500px] hidden bg-[#00ccff] relative lg:flex items-center rounded-full h-[500px] transition-shadow"
+              className="w-[600px] hidden bg-[#00ccff] relative lg:flex items-center rounded-full h-[550px] transition-shadow"
               style={{
                 boxShadow: isHovered
                   ? "0 0 25px 3px #00ccff" // blue-00ccff orange-ff6600 yellow-f4b400

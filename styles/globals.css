@@ -25,8 +25,216 @@
     @apply text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase;
   }
 
+  .glowing-txt {
+    --webkit-text-shadow: 0 0 0.125em hsl(0 0% 100% /0.3),
+      0 0 0.45em var(--glow-color);
+    --moz-text-shadow: 0 0 0.125em hsl(0 0% 100% /0.3),
+      0 0 0.45em var(--glow-color);
+    text-shadow: 0 0 0.125em hsl(0 0% 100% /0.3), 0 0 0.45em var(--glow-color);
+    animation: text-flicker 3s linear infinite;
+  }
+
+  .custom-div {
+    width: 60%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: #55e6a5; /* Fallback color */
+  }
+
+  .phone-div {
+    width: 27%;
+    height: 137%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: #55e6a5; /* Fallback color */
+  }
+
+  .mail-div {
+    width: 27%;
+    height: 137%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-color: #55e6a5;
+  }
+
+  /* Medium and larger screens */
+  @media (min-width: 768px) {
+    .custom-div {
+      width: 50%;
+      height: 75%;
+    }
+    .phone-div {
+      width: 25%;
+      height: 77%;
+    }
+    .mail-div {
+      width: 25%;
+      height: 77%;
+    }
+  }
+
+  .faulty-letter {
+    opacity: 0.5;
+    animation: faulty-flicker 2s linear infinite;
+  }
+
+  @keyframes faulty-flicker {
+    0% {
+      opacity: 0.1;
+    }
+    2% {
+      opacity: 0.1;
+    }
+    4% {
+      opacity: 0.5;
+    }
+    19% {
+      opacity: 0.5;
+    }
+    21% {
+      opacity: 0.1;
+    }
+    23% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 0.1;
+    }
+    83% {
+      opacity: 0.4;
+    }
+    87% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes text-flicker {
+    0% {
+      opacity: 0.1;
+    }
+    2% {
+      opacity: 1;
+    }
+    8% {
+      opacity: 0.1;
+    }
+    9% {
+      opacity: 1;
+    }
+    12% {
+      opacity: 0.1;
+    }
+    20% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0.3;
+    }
+    30% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 0.7;
+    }
+    72% {
+      opacity: 0.2;
+    }
+    77% {
+      opacity: 0.9;
+    }
+    100% {
+      opacity: 0.9;
+    }
+  }
+
+  .box {
+    width: 15rem;
+    height: 05rem;
+    display: grid;
+    place-content: center;
+    color: white;
+    text-shadow: 0 1px 0 #000;
+
+    --border-angle: 0turn;
+    --main-bg: conic-gradient(
+      from var(--border-angle),
+      #213,
+      #112 5%,
+      #112 60%,
+      #213 95%
+    );
+
+    border: solid 5px transparent;
+    border-radius: 2em;
+    --gradient-border: conic-gradient(
+      from var(--border-angle),
+      transparent 25%,
+      #08f,
+      #f03 99%,
+      transparent
+    );
+
+    background: var(--main-bg) padding-box, var(--gradient-border) border-box,
+      var(--main-bg) border-box;
+
+    background-position: center center;
+
+    animation: identifier 3s linear infinite, animate-bounce 1s infinite;
+
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+
+  @keyframes animate-bounce {
+    0%,
+    100% {
+      transform: translateY(-5%);
+    }
+    50% {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes identifier {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+
+  @property --border-angle {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0turn;
+  }
+
+  .custom-width {
+    animation: changeWidth 3s linear 3 alternate;
+  }
+
+  @keyframes changeWidth {
+    from {
+      width: 0;
+    }
+    to {
+      width: var(--target-width, 100%);
+    }
+  }
 }
 
 html {
-  scroll-behavior: smooth ;
+  scroll-behavior: smooth;
 }
