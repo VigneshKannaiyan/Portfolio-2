@@ -17,6 +17,7 @@ const SliderImage = ({ image, name }: Props) => {
         objectFit="contain"
         className="mx-auto mb-[2rem] rounded-full"
         loading="eager"
+        unoptimized={true}
       />
     </div>
   );
