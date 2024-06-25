@@ -74,12 +74,15 @@ and Government of Maharashtra.`,
             />
             {hoveredImage === index && (
               <a href={project.site} target="_blank" rel="noopener noreferrer">
-                <button className="absolute inset-0 flex items-center justify-center bg-opacity-75 text-[#03ffcd] bg-[#000000] font-bold rounded-lg transition-opacity duration-300">
-                  <span className="relative inline-flex items-center text-lg">
+                <button
+                  className="absolute inset-0 flex flex-col items-center justify-center bg-opacity-75 text-[#03ffcd] 
+                bg-[#000000] font-bold rounded-lg transition-opacity duration-300"
+                >
+                  <span className="relative inline-flex items-center text-lg text-white mb-2">
                     {project.name}
-                    <LinkIcon className="ml-2 w-6 h-6 text-[#8c8c8c]" />
+                    <LinkIcon className="ml-2 w-6 h-6" />
                   </span>
-                  <span className="text-[#ffffff] text-center mt-2 overflow-hidden overflow-ellipsis">
+                  <span className="text-[#ffffff92] text-center overflow-hidden overflow-ellipsis">
                     {project.description}
                   </span>
                 </button>
