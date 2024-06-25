@@ -41,8 +41,8 @@ const Hero = () => {
             </p>
             <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
               <a
-                href="/files/VIGNESH_KANNAIYAN_12052024.pdf"
-                download
+                href="/files/VIGNESH_KANNAIYAN.pdf"
+                download="vignesh_kannaiyan"
                 className="inline-block"
               >
                 <button className="box">
