@@ -55,7 +55,7 @@ const Footer = () => {
               backgroundImage: "url('/images/email.gif')",
             }}
           >
-            <a href="mailto:contact@test.com" target="_blank">
+            <a href="mailto:vigneshkannaiyan.official@gmail.com" target="_blank">
               &nbsp;&nbsp;&nbsp;
             </a>
           </div>
