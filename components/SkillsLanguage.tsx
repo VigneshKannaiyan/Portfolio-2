@@ -24,16 +24,15 @@ const SkillsLanguage = ({
           {skill1}
         </h1>
         <span
-          className={`${level1} bottom-0 h-[6px] absolute bg-[#55e6a5] custom-width`}
+          className={`${level1} bottom-0 h-[6px] absolute bg-gradient-to-r from-[#ff0000] to-[#00ff00] custom-width`}
         ></span>
       </div>
-
       <div className="relative md-[3rem] ">
         <h1 className="p-5 w-[100%] uppercase bg-gray-800 rounded-sm text-white text-[20px] font-bold">
           {skill2}
         </h1>
         <span
-          className={`${level2} bottom-0 h-[6px] absolute bg-[#55e6a5] custom-width`}
+          className={`${level2} bottom-0 h-[6px] absolute bg-gradient-to-r from-[#ff0000] to-[#00ff00] custom-width`}
         ></span>
       </div>
 
@@ -42,7 +41,7 @@ const SkillsLanguage = ({
           {skill3}
         </h1>
         <span
-          className={`${level3} bottom-0 h-[6px] absolute bg-[#55e6a5] custom-width`}
+          className={`${level3} bottom-0 h-[6px] absolute bg-gradient-to-r from-[#ff0000] to-[#00ff00] custom-width`}
         ></span>
       </div>
     </div>

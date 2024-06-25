@@ -1,4 +1,3 @@
-import { DevicePhoneMobileIcon, EnvelopeIcon } from "@heroicons/react/20/solid";
 import React from "react";
 
 const Footer = () => {

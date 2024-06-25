@@ -20,7 +20,6 @@ const About = () => {
             ABOUT ME
           </h1>
           <h2 className="text-[25px] md:text-[35px] font-bold text-white">
-            {/*  lg:text-[45px] mb:leading-[3rem] leading-[2rem] capitalize mb-[3rem]  */}
             Experienced Developer &{" "}
             <span className="text-yellow-400">Avid Sports Fan</span>
           </h2>
@@ -35,7 +34,6 @@ const About = () => {
               endeavors.
             </p>
           </div>
-          {/* <button></button> */}
         </div>
         <div data-aos="fade-left">
           <div
@@ -66,7 +64,6 @@ const About = () => {
             ></div>
           </div>
         </div>
-        {/* </div> */}
       </div>
     </div>
   );
