@@ -222,7 +222,7 @@
   }
 
   .custom-width {
-    animation: changeWidth 3s linear 3 alternate;
+    animation: changeWidth 3s linear;
   }
 
   @keyframes changeWidth {
@@ -232,6 +232,17 @@
     to {
       width: var(--target-width, 100%);
     }
+  }
+
+  .border-gradient {
+    border-width: 4px; /* Adjust the border width */
+    border-style: solid;
+    border-image: linear-gradient(to right, #ff00b3, #5566e6) 1;
+  }
+
+  .hover-blur:hover {
+    -webkit-filter: blur(2px);
+    filter: blur(2px);
   }
 }
 
