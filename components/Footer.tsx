@@ -36,13 +36,21 @@ const Footer = () => {
             style={{
               backgroundImage: "url('/images/phone2.gif')",
             }}
-          ></div>
+          >
+                  <a href="tel:+919952209682">
+                  &nbsp;&nbsp;&nbsp;
+                  </a>
+
+          </div>
           <div>
             <h1 className="text-[25px] mb-[0.2rem] font-semibold text-[white]">
               Phone Number
             </h1>
             <p className="text-[17px] w-[90%] text-white opacity-60">
               +91 9952209682
+            </p>
+            <p className="text-[10px] w-[90%] text-white opacity-60">
+              (click image to make a phone call)
             </p>
           </div>
         </div>
