@@ -244,6 +244,15 @@
     -webkit-filter: blur(2px);
     filter: blur(2px);
   }
+
+  .hover_links {
+    transition: 0.5s all ease-in-out;
+  }
+  
+  .hover_links:hover {
+    transform: scale(1.5);
+    transform-origin: top;
+  }
 }
 
 html {

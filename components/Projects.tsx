@@ -19,11 +19,11 @@ const Projects = () => {
       name: "CP4D",
       alt: "portfolio",
       site: "https://www.ibm.com/products/cloud-pak-for-data",
-      description: `IBM Cloud Pak® for Data is a modular set of integrated software components for data analysis, organization and
-management. It is available for self-hosting, or as a managed service on IBM Cloud & others. Break down data silos,
-Access data across business silos, on premises and in clouds, without moving the data. Keep data private and secure,
-Universally safeguard data usage with privacy and usage policy enforcement across all data. Empower all data
-consumers, Enable users of all skill levels to access trusted data with tailored interfaces (Code, Canvas, No Code).`,
+      description: `IBM Cloud Pak® for Data is a modular platform for integrated data analysis, 
+      management, and organization. Available for self-hosting or as a managed service on IBM Cloud, 
+      it breaks down data silos, providing access to data across business silos, on-premises, and in clouds, 
+      without data movement. It ensures privacy and security with enforced usage policies and empowers all users, 
+      regardless of skill level, with tailored interfaces including code, canvas, and no-code options.`,
     },
     {
       src: "/images/adanionepranaam2.jpg",
@@ -40,12 +40,11 @@ is to give the user un paralleled experience of travel and lifestyle across the 
       name: "TN-HMIS",
       alt: "portfolio",
       site: "https://tnhmislims.org/",
-      description: `A web application for monitoring the Hospital details such as patients information, doctor’s information,
-hospital staffs information, assets information, inventory information etc. Based on the roles given to user their access in
-the application also varies. Main scope of this application is reduce the time consumption occurs in this department. Not only
-doctors and patients information the dealers and manufacturers, drivers, launderers and who are all associated with the
-hospital environment are also gets benefits by this application. This project is currently in live for Government of TamilNadu
-and Government of Maharashtra.`,
+      description: `A web application enables efficient monitoring of hospital operations, including patient, 
+      doctor, staff, asset, and inventory management. User access is role-based, ensuring appropriate data visibility. 
+      It aims to streamline departmental workflows and reduce time consumption. Additionally, the application benefits all 
+      stakeholders involved in the hospital ecosystem, such as dealers, manufacturers, drivers, and launderers. 
+      Currently, this solution is live for the Government of Tamil Nadu and the Government of Maharashtra`,
     },
   ];
 
