@@ -3,6 +3,7 @@ import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import Image from "next/image";
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
+import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const Hero = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -68,14 +69,40 @@ const Hero = () => {
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <div className="relative w-full h-full overflow-hidden rounded-full border-2 #00ccff">
+              <div className="relative w-full h-full overflow-hidden rounded-full border-2 border-[#ffffff]">
                 <Image
                   src="/images/u1.jpg"
                   alt="user"
                   layout="fill"
                   objectFit="cover"
-                  className="rounded-full"
-                ></Image>
+                  className="rounded-full hover_links"
+                />
+                {isHovered && (
+                  <div className="absolute inset-0 flex items-center justify-center gap-4 right-4 top-[calc(50%-4px)]">
+                    <a
+                      href="https://www.instagram.com/coimbatore_columbus/"
+                      target="_blank"
+                    >
+                      <FaInstagram className="w-12 h-12 text-[#f473ee]" />
+                    </a>
+                    <a
+                      href="https://github.com/VigneshKannaiyan"
+                      target="_blank"
+                    >
+                      <FaGithub className="w-12 h-12 text-[#000000]" />
+                    </a>
+
+                    <a
+                      href="https://www.linkedin.com/in/vignesh-k-b40ab718b/"
+                      target="_blank"
+                    >
+                      <FaLinkedin className="w-12 h-12 text-[#5fbfec]" />
+                    </a>
+                    <a href="https://wa.me/9952209682" target="_blank">
+                      <FaWhatsapp className="w-12 h-12 text-[#6bef9b]" />
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           </div>
