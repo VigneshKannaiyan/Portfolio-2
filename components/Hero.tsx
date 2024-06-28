@@ -83,23 +83,23 @@ const Hero = () => {
                       href="https://www.instagram.com/coimbatore_columbus/"
                       target="_blank"
                     >
-                      <FaInstagram className="w-12 h-12 text-[#f473ee]" />
+                      <FaInstagram className="w-20 h-20 text-[#f552f2]" />
                     </a>
                     <a
                       href="https://github.com/VigneshKannaiyan"
                       target="_blank"
                     >
-                      <FaGithub className="w-12 h-12 text-[#000000]" />
+                      <FaGithub className="w-20 h-20 text-[#000000]" />
                     </a>
 
                     <a
                       href="https://www.linkedin.com/in/vignesh-k-b40ab718b/"
                       target="_blank"
                     >
-                      <FaLinkedin className="w-12 h-12 text-[#5fbfec]" />
+                      <FaLinkedin className="w-20 h-20 text-[#5fbfec]" />
                     </a>
                     <a href="https://wa.me/9952209682" target="_blank">
-                      <FaWhatsapp className="w-12 h-12 text-[#6bef9b]" />
+                      <FaWhatsapp className="w-20 h-20 text-[#6bef9b]" />
                     </a>
                   </div>
                 )}
