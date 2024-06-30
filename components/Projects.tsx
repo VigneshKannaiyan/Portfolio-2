@@ -53,7 +53,7 @@ is to give the user un paralleled experience of travel and lifestyle across the 
       <h1 className="text-center text-white text-3xl md:text-4xl heading">
         Proj<span className="text-yellow-400">ects</span>
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+      <div className="px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -81,7 +81,7 @@ is to give the user un paralleled experience of travel and lifestyle across the 
                     {project.name}
                     <LinkIcon className="ml-2 w-6 h-6" />
                   </span>
-                  <span className="text-[#ffffff92] text-center overflow-hidden overflow-ellipsis">
+                  <span className="text-[#ffffff92] px-2 text-center overflow-hidden overflow-ellipsis">
                     {project.description}
                   </span>
                 </button>
