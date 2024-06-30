@@ -15,27 +15,7 @@ const About = () => {
   return (
     <div className="bg-[#121121] pb-[3rem] pt-[4rem] mt:pt-[8rem]" id="about">
       <div className="grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center">
-        <div>
-          <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
-            ABOUT ME
-          </h1>
-          <h2 className="text-[25px] md:text-[35px] font-bold text-white">
-            Experienced Developer &{" "}
-            <span className="text-yellow-400">Avid Sports Fan</span>
-          </h2>
-          <div className="mb-[3rem] flex items-center md:space-x-10">
-            <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
-            <p className="text-[19px] text-slate-300 w-[80%]">
-              With over 5 years of dedicated backend development expertise and 6
-              months of front-end proficiency, I am also an avid sports
-              enthusiast, enjoying test cricket and F1. Can play badminton,
-              cricket and hockey. I thrive in dynamic environments, fostering
-              teamwork and innovation both on the field and in my professional
-              endeavors.
-            </p>
-          </div>
-        </div>
-        <div data-aos="fade-left">
+        <div data-aos="fade-right">
           <div
             className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative duration-300 hover:-rotate-[360deg]"
             style={{
@@ -62,6 +42,26 @@ const About = () => {
                   : "",
               }}
             ></div>
+          </div>
+        </div>
+        <div>
+          <h1 className="text-[20px] font-bold uppercase text-[#55e6a5] md-[1rem]">
+            ABOUT ME
+          </h1>
+          <h2 className="text-[25px] md:text-[35px] font-bold text-white">
+            Experienced Developer &{" "}
+            <span className="text-yellow-400">Avid Sports Fan</span>
+          </h2>
+          <div className="mb-[3rem] flex items-center md:space-x-10">
+            <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
+            <p className="text-[19px] text-slate-300 w-[80%]">
+              With over 5 years of dedicated backend development expertise and 6
+              months of front-end proficiency, I am also an avid sports
+              enthusiast, enjoying test cricket and F1. Can play badminton,
+              cricket and hockey. I thrive in dynamic environments, fostering
+              teamwork and innovation both on the field and in my professional
+              endeavors.
+            </p>
           </div>
         </div>
       </div>

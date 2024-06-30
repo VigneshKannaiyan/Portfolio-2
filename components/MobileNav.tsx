@@ -20,20 +20,20 @@ const MobileNav = ({ nav, closeNav }: Props) => {
             href="https://www.instagram.com/coimbatore_columbus/"
             target="_blank"
           >
-            <FaInstagram className="w-12 h-12 text-[#f552f2]" />
+            <FaInstagram className="w-12 h-12 text-[#f552f2] hover:text-white" />
           </a>
           <a href="https://github.com/VigneshKannaiyan" target="_blank">
-            <FaGithub className="w-12 h-12 text-[#ffffff]" />
+            <FaGithub className="w-12 h-12 text-[#b9b8b8]  hover:text-white" />
           </a>
 
           <a
             href="https://www.linkedin.com/in/vignesh-k-b40ab718b/"
             target="_blank"
           >
-            <FaLinkedin className="w-12 h-12 text-[#5fbfec]" />
+            <FaLinkedin className="w-12 h-12 text-[#5fbfec]  hover:text-white" />
           </a>
           <a href="https://wa.me/9952209682" target="_blank">
-            <FaWhatsapp className="w-12 h-12 text-[#40f381]" />
+            <FaWhatsapp className="w-12 h-12 text-[#40f381]  hover:text-white" />
           </a>
         </div>
         <div className="nav-link-mobile">
@@ -57,7 +57,7 @@ const MobileNav = ({ nav, closeNav }: Props) => {
       </div>
       <div
         onClick={closeNav}
-        className="absolute z-[100000000] cursor-pointer top-[2rem] right-[2rem] w-[2rem] h-[2rem] text-yellow-400"
+        className="absolute z-[100000000] cursor-pointer top-[2rem] right-[2rem] w-[3rem] h-[2rem] text-yellow-400"
       >
         <XMarkIcon />
       </div>

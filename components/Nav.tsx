@@ -19,7 +19,7 @@ const Nav = ({ openNav }: Props) => {
             />
           </a>
         </div>
-        <h1 className="hidden md:flex flex-[0.6] cursor-pointer text-white font-bold text-[6vw] md:text-[4vw] lg:text-[3vw] xl:text-[35px]">
+        <h1 className="hidden md:flex flex-[0.6] px-4 cursor-pointer text-white font-bold text-[6vw] md:text-[4vw] lg:text-[3vw] xl:text-[35px]">
           PORT
           <span className="text-yellow-300">FOLIO</span>
         </h1>
@@ -42,7 +42,7 @@ const Nav = ({ openNav }: Props) => {
           <a href="#contact">CONTACT</a>
         </div>
         <div onClick={openNav}>
-          <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-400" />
+          <Bars3Icon fontSize={10} className="w-[3rem] md:hidden h-[2rem] cursor-pointer text-yellow-400" />
         </div>
       </div>
     </div>
