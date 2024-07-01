@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <div
-      className="relative h-[88vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center overflow-hidden"
+      className="relative h-[88vh] bg-[url('/images/banner.jpg')] mt-[15vh] bg-cover bg-center overflow-hidden"
       id="home"
     >
       <Particle />
