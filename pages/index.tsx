@@ -8,8 +8,8 @@ import Services from "@/components/Services";
 import Skills from "@/components/Skills";
 import Technology from "@/components/Technology";
 import React, { useEffect, useState } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -45,6 +45,7 @@ const HomePage = () => {
   return (
     <div className="overflow-x-hidden">
       <div>
+        <title>Vignesh Kannaiyan - Portfolio</title>
         <MobileNav nav={nav} closeNav={closeNav} />
         <Nav openNav={openNav} />
         <Hero />
